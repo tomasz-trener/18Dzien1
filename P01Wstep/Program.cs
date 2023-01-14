@@ -10,6 +10,13 @@ namespace P01Wstep
     {
         static void Main(string[] args)
         {
+            // napisy, liczby , liczby niecalkowite, zmienne logiczne, znaki 
+
+            char znak1 = '4';
+            char znak2 = 'g';
+            string napis1 = "g";
+
+
             string doPrzechowywaniaNapisow = "ala ma kota";
 
             int zmiennaLiczbowa = 6;
