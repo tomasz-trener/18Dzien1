@@ -19,10 +19,10 @@ namespace P08ZadanieInstrukcjeWarunkowe
             //double liczba2 = Convert.ToDouble(rownanie.Substring(2));
 
             // wersja 2 
-            int pozPlus = rownanie.IndexOf("+");
-            int pozMin = rownanie.IndexOf("-");
-            int pozMnoz = rownanie.IndexOf("*");
-            int pozDziel = rownanie.IndexOf("/");
+            int pozPlus = rownanie.IndexOf("+"); //-1
+            int pozMin = rownanie.IndexOf("-");  //-1
+            int pozMnoz = rownanie.IndexOf("*"); // konretna pozycja
+            int pozDziel = rownanie.IndexOf("/"); // -1
 
             string op;
             double liczba1;

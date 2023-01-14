@@ -13,7 +13,7 @@ namespace P09Switch
             Console.WriteLine("Podaj cyfre");
             int cyfra = Convert.ToInt32(Console.ReadLine());
 
-            if(cyfra==1)
+            if (cyfra == 1) 
                 Console.WriteLine("jeden");
             else if (cyfra==2)
                 Console.WriteLine("dwa");
