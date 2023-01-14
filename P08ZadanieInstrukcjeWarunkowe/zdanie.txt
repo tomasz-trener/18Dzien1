@@ -15,4 +15,4 @@ podaj wynik
 1-2
 
 // dzia³a tylko na argumentach jedno cyfrowych 
-// dzia³a na argumentach wielocyfrowych   15+17
+// dzia³a na argumentach wielocyfrowych   15+175
