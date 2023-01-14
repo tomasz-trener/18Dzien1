@@ -49,6 +49,7 @@ namespace P02OperacjaNaNapisach
 
             int pozycja= napis.IndexOf("ma"); //4
 
+            //xx
 
             Console.ReadKey();
 
