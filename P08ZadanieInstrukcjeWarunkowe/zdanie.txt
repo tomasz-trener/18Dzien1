@@ -1,0 +1,18 @@
+
+poproœ o wczytanie równania matematycznego dwu argumentowego
+
+z operatorem + lub - lub * lub / 
+
+podaj wynik 
+
+
+5+8 
+
+2*6
+
+9/2
+
+1-2
+
+// dzia³a tylko na argumentach jedno cyfrowych 
+// dzia³a na argumentach wielocyfrowych   15+17
