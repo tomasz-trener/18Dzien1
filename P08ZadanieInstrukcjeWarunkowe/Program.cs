@@ -30,25 +30,25 @@ namespace P08ZadanieInstrukcjeWarunkowe
             if (pozPlus > -1)
             {
                 op = "+";
-                liczba1 = liczba1 = Convert.ToDouble(rownanie.Substring(0, pozPlus));
+                liczba1 = Convert.ToDouble(rownanie.Substring(0, pozPlus));
                 liczba2 = Convert.ToDouble(rownanie.Substring(pozPlus+1));
             }
             else if (pozMin > -1)
             {
                 op = "-";
-                liczba1 = liczba1 = Convert.ToDouble(rownanie.Substring(0, pozMin));
+                liczba1 = Convert.ToDouble(rownanie.Substring(0, pozMin));
                 liczba2 = Convert.ToDouble(rownanie.Substring(pozMin + 1));
             }
             else if (pozMnoz > -1)
             {
                 op = "*";
-                liczba1 = liczba1 = Convert.ToDouble(rownanie.Substring(0, pozMnoz));
+                liczba1 = Convert.ToDouble(rownanie.Substring(0, pozMnoz));
                 liczba2 = Convert.ToDouble(rownanie.Substring(pozMnoz + 1));
             }
             else
             {
                 op = "/";
-                liczba1 = liczba1 = Convert.ToDouble(rownanie.Substring(0, pozDziel));
+                liczba1 = Convert.ToDouble(rownanie.Substring(0, pozDziel));
                 liczba2 = Convert.ToDouble(rownanie.Substring(pozDziel + 1));
             }
 
