@@ -10,6 +10,8 @@ namespace P04ZadanieNapisy
     {
         static void Main(string[] args)
         {
+
+
         }
     }
 }

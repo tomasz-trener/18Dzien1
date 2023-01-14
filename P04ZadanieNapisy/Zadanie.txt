@@ -10,7 +10,7 @@ z ilu cyfr składa się wynik
 210
 3
 
-cz2.
+cz2. 
 nastepnie program niech wczyta dwie liczby oddzielone spacją
 np: 10 200
 program niech policzy sume tych liczb 
