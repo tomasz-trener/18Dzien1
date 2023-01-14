@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P07InstrukcjeWarunkowe", "P
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P08ZadanieInstrukcjeWarunkowe", "P08ZadanieInstrukcjeWarunkowe\P08ZadanieInstrukcjeWarunkowe.csproj", "{D96B870F-BC8B-4F43-BF62-127B48BBD714}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P09Switch", "P09Switch\P09Switch.csproj", "{0849FAED-6664-4FA0-870F-D1B6D2B9E98D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{D96B870F-BC8B-4F43-BF62-127B48BBD714}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D96B870F-BC8B-4F43-BF62-127B48BBD714}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D96B870F-BC8B-4F43-BF62-127B48BBD714}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0849FAED-6664-4FA0-870F-D1B6D2B9E98D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0849FAED-6664-4FA0-870F-D1B6D2B9E98D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0849FAED-6664-4FA0-870F-D1B6D2B9E98D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0849FAED-6664-4FA0-870F-D1B6D2B9E98D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
