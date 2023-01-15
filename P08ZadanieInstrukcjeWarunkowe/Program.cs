@@ -8,6 +8,7 @@ namespace P08ZadanieInstrukcjeWarunkowe
 {
     internal class Program
     {
+        // petle, tablice , programowanie obiektowe , aplikacje okienkowe , aplikacje bazodanowe , 
         static void Main(string[] args)
         {
             Console.WriteLine("Wczytaj rownanie matematyczne") ;
@@ -24,9 +25,9 @@ namespace P08ZadanieInstrukcjeWarunkowe
             int pozMnoz = rownanie.IndexOf("*"); // konretna pozycja
             int pozDziel = rownanie.IndexOf("/"); // -1
 
-            string op;
-            double liczba1;
-            double liczba2;
+            string op = null;
+            double? liczba1 = null;
+            double? liczba2 = null;
             if (pozPlus > -1)
             {
                 op = "+";
@@ -45,31 +46,31 @@ namespace P08ZadanieInstrukcjeWarunkowe
                 liczba1 = Convert.ToDouble(rownanie.Substring(0, pozMnoz));
                 liczba2 = Convert.ToDouble(rownanie.Substring(pozMnoz + 1));
             }
-            else
+            else if(pozDziel >-1)
             {
                 op = "/";
                 liczba1 = Convert.ToDouble(rownanie.Substring(0, pozDziel));
                 liczba2 = Convert.ToDouble(rownanie.Substring(pozDziel + 1));
             }
 
-
-
             double? wynik = null;
-            if (op == "+")
-                wynik = liczba1 + liczba2;
-            else if (op == "-")
-                wynik = liczba1 - liczba2;
-            else if (op == "*")
-                wynik = liczba1 * liczba2;
-            else if (op == "/")
-                wynik = liczba1 / liczba2;
+            if (op != null)
+            {  
+                if (op == "+")
+                    wynik = liczba1 + liczba2;
+                else if (op == "-")
+                    wynik = liczba1 - liczba2;
+                else if (op == "*")
+                    wynik = liczba1 * liczba2;
+                else if (op == "/")
+                    wynik = liczba1 / liczba2;
+            }
+            
             //else
             //    wynik = "zle";
            
             //double? wynik = null;
             //wynik = op == "+" ? liczba1 + liczba2 : op == "-" ? liczba1 - liczba2 : op == "*" ? liczba1 * liczba2 : op == "/" ? liczba1 / liczba2;                
-
-
 
             if (wynik != null)
                 Console.WriteLine("wynik to " + wynik);
